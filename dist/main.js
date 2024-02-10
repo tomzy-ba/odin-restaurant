@@ -1,0 +1,1 @@
+(()=>{var e={672:e=>{e.exports=function(){const e=document.querySelector("#content"),t=document.createElement("article");t.innerText="lorem ipsum",e.append(t)}}},t={};function r(n){var o=t[n];if(void 0!==o)return o.exports;var c=t[n]={exports:{}};return e[n](c,c.exports,r),c.exports}(()=>{const e=r(672);r(672),e()})()})();
