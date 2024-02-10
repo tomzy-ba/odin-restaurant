@@ -1,4 +1,4 @@
-function pageLoader() {
+function homeLoader() {
     const content = document.querySelector("#content");
     console.log(content)
 
@@ -15,4 +15,4 @@ function pageLoader() {
 
 }
 
-module.exports = pageLoader;
+module.exports = homeLoader;

@@ -1,3 +1,9 @@
-const pageLoader = require("./pageload");
+const homeLoader = require("./homeLoader");
 
-pageLoader();
+
+homeLoader();
+
+const homeButton = document.querySelector("#homeButton")
+homeButton.addEventListener("click", () => {
+    homeLoader()
+})
