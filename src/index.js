@@ -7,6 +7,8 @@ homeLoader();
 
 
 const content = document.querySelector("#content");
+content.style.padding = "4rem";
+content.style.border = "1px solid black"
 
 const homeButton = document.querySelector("#homeButton");
 homeButton.addEventListener("click", () => {
