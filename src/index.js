@@ -1,9 +1,15 @@
 const homeLoader = require("./homeLoader");
+const menuLoader = require("./menuLoader");
 
 
 homeLoader();
 
-const homeButton = document.querySelector("#homeButton")
+const homeButton = document.querySelector("#homeButton");
 homeButton.addEventListener("click", () => {
-    homeLoader()
-})
+    homeLoader();
+});
+
+const menuButton = document.querySelector("#menuButton");
+menuButton.addEventListener("click", () => {
+menuLoader();
+});
